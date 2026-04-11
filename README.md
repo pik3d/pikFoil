@@ -1,4 +1,4 @@
 ![head](/assets/images/pikFoil80.png)
-# Air Foil design based on Bezier curves
+## Air Foil design based on Bezier curves - graph. editor
 
 Text
