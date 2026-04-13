@@ -56,6 +56,6 @@ It is enogh __jre package__, which can be freely download(~60 MB): <a href='http
 
 Standard run: &nbsp;> __java &nbsp; -jar &nbsp; pikFoil.jar__ &nbsp; [ saved_Foil ]<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or &nbsp; > __pikFoil[.bat]__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[ saved_Foil ]<br>
-shortcut &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp; &nbsp; can be placed on the desktop ( use __pikFoil.ico__ )<br>
+shortcut &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp; &nbsp; &nbsp;can be placed on the desktop ( use __pikFoil.ico__ )<br>
 
 
