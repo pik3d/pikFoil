@@ -11,7 +11,7 @@ The editor has seven ways to construct airfoils :
 * __B2+__ - two Bezier-4
 * __B3+__ - two Bezier-4 &nbsp;& &nbsp;Bezier-3
 * __B4__ &nbsp; - four Bezier-3
-* __B5__ &nbsp; - five Bezier-3
+* __B5__ &nbsp; - five&nbsp; Bezier-3
 * __HB__ &nbsp; - __Half__ of foil : &nbsp;two Bezier-4 &nbsp; & &nbsp; Bezier-3 &nbsp;camber
 * __HA__ &nbsp; - __Half__ of foil : &nbsp;two Bezier-3 &nbsp; & &nbsp; __Arc__ &nbsp;camber line
 
