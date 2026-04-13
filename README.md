@@ -20,11 +20,11 @@ can drag the control points to achieve the desired airfoil shape.
 
 Editor supports "Foil Buffer" to store intermediate steps or foil series.
 
-How to use window graphics and control editor is described in &lt;Help-F1>.
+How to control editor and use window graphics is described in __&lt;Help-F1>__.
 
 Result saves in text file with __.foil__ extension. It contains all Beziers as list of "Bezier Control points": P1...P5
 with comments how to use them. In addition it contains "discrete" airfoil points(x,y) array.
-Discrete points are selected to ensure a deviation less than 0.0002 .
+Discrete points are selected in accordane with curvature to ensure a deviation less than 0.0002 .
 
 It is convenient to evaluate airFoil characteristics with <a href='http://www.mh-aerotools.de/airfoils/javafoil.htm'>"JavaFoil of Martin Hepperle"</a>.
 
@@ -33,4 +33,10 @@ Go to the &nbsp;__"JavaFoil"__ ( it must be run __in parallel with pikFoil__ ).<
 In the tab: __"Geometry"__ press the button __"Paste( Text )"__.<br>
 In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze it"__.<br>
 
+&nbsp; &nbsp; &nbsp; &nbsp; ##Curvature issue##
 
+In general case two Bezier curves are joined with a continuous first derivative, but have a gap 
+in the curvature( __k__ ) - the reciprocal of the curvature radius __R__ :
+![curvature](/assets/images/03.png)
+
+__pikFpil__ has additional service to ensure continuous curvature - "Smooth".
