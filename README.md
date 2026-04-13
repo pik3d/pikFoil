@@ -15,18 +15,17 @@ The editor has seven ways to construct airfoils :
 * __HB+__ - __Half__ of foil : &nbsp;two Bezier-4 &nbsp; & &nbsp; Bezier-3 &nbsp;camber
 * __HA__ &nbsp; - __Half__ of foil : &nbsp;two Bezier-3 &nbsp; & &nbsp; __Arc__ &nbsp;camber line
 
-After selecting the airfoil construction method, you
-can drag the control points to achieve the desired airfoil shape.
+After selecting the airfoil construction method, you can drag the control points to achieve the desired shape.
 
-Editor supports "Foil Buffer" to store intermediate steps or foil series.
+Editor supports __"Foil Buffer"__ to store intermediate steps or foil series.
 
 How to control editor and use window graphics is described in __&lt;Help-F1>__.
 
-Result saves in text file with __.foil__ extension. It contains all Beziers as list of "Bezier Control points": P1...P5
-with comments how to use them. In addition it contains "discrete" airfoil points(x,y) array.
-Discrete points are selected in accordane with curvature to ensure a deviation less than 0.0002 .
+Result saves in text file with __.foil__ extension. It contains all Bezier curves( Control Points: P1...P5 )
+with comments how to use them. In addition it contains array of the "discrete" airfoil points( x,y ).
+Discrete points are selected in accordane with a curvature to ensure a deviation less than 0.0002 .
 
-It is convenient to evaluate airFoil characteristics with <a href='http://www.mh-aerotools.de/airfoils/javafoil.htm'>"JavaFoil of Martin Hepperle"</a>.
+It is convenient to evaluate airfoil characteristics with <a href='http://www.mh-aerotools.de/airfoils/javafoil.htm'>"JavaFoil of Martin Hepperle"</a>.
 
 To copy airfoil discrete points to the system ClipBoard, press the button __"ClipBoard"__.<br>
 Go to the &nbsp;__"JavaFoil"__ ( it must be run __in parallel with pikFoil__ ).<br>
