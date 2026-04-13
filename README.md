@@ -42,7 +42,7 @@ in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To se
 
 __pikFoil__ has additional service to ensure continuous curvature -__"Smooth"__.
 Use checkbox "Smooth" ON/OFF this service. When the service is activated, __pikFoil__ finds the gap and try to remove it by adding special functions,
-which slightly change __the next after the gap Bezier :__<br>
+which slightly change __the Bezier curves :__<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __B(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
 where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; __K0, K1__ - vectors of smooth coefficients ,<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;f0, f1 - scalar functions :<br>
