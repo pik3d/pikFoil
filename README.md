@@ -37,6 +37,6 @@ In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze 
 
 In general case two Bezier curves are joined with a continuous first derivative, but have a gap 
 in the curvature( __k__ ) - the reciprocal of the curvature radius __R__ :
-![curvature](/assets/images/03.png)
+![curvature](/assets/images/k.png)
 
 __pikFpil__ has additional service to ensure continuous curvature - "Smooth".
