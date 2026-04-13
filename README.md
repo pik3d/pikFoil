@@ -48,3 +48,8 @@ where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;__K0, K1__ - vectors of sm
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f0, f1 &nbsp;- scalar functions :<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f0(t) = .5 * t^2 * (1-t)^3, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = 0, &nbsp; f0"(0)=1 ;<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f1(t) = .5 * t^3 * (1-t)^2, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = 0, &nbsp; f1"(1)=1 .<br> 
+
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __install & run__
+
+Program compiled with JAVA-21 (can be run under later JAVA versions) and packed to the __pikFoil.jar__ file.<br>
+It is enogh __JAVA jre__ version, which can be for example freely download: <a href='https://www.azul.com/downloads/?os=windows&architecture=x86-64-bit&package=jre#zulu'>Zulu </a><br>   
