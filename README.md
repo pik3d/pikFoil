@@ -54,8 +54,8 @@ where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;__K0, K1__ - vectors of sm
 Program compiled with __JAVA-21__ (can be run under later JAVA versions) and packed to the __pikFoil.jar__ file.<br>
 It is enogh __jre package__, which can be freely download(~60 MB): <a href='https://www.azul.com/downloads/?os=windows&architecture=x86-64-bit&package=jre#zulu'>Azul Downloads</a><br>
 
-Standard run: &nbsp;> java &nbsp; -jar &nbsp; __pikFoil.jar__ &nbsp; [saved_Foil]<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or &nbsp; > __pikFoil[.bat]__ &nbsp; [saved_Foil] &nbsp; &nbsp; &nbsp; # __recommended__<br>
+Standard run: &nbsp;> __java &nbsp; -jar &nbsp; pikFoil.jar__ &nbsp; [saved_Foil]<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or &nbsp; > __pikFoil[.bat]__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [saved_Foil]<br>
 shortcut &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp; can be placed on the desktop ( use __pikFoil.ico__ )<br>
 
 
