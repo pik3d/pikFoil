@@ -56,6 +56,8 @@ Standard run: &nbsp;> __java &nbsp; -jar &nbsp; pikFoil.jar__ &nbsp; [ saved_Foi
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or &nbsp; > __pikFoil[.bat]__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[ saved_Foil ]<br>
 shortcut &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp; &nbsp; &nbsp;can be placed on the __desktop__ ( use __pikFoil.ico__ ) &nbsp; __# recommended__<br>
 
+__pikFoil__ works fine under __Linux__ (tested in Mint 21).
+
 Examples:<br>
 ![half_B5](/assets/images/half_B5.png)
 ![curvgap](/assets/images/curvgap.png)
