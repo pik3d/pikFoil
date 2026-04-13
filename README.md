@@ -7,11 +7,11 @@ Control point __P4 (green) of B4__ — controls the middle part of the curve.
 
 The editor has seven ways to generate airfoils :
 
-* __B2__ &nbsp;- two Bezier-3
+* __B2__ &nbsp; - two Bezier-3
 * __B2+__ - two Bezier-4
 * __B3+__ - two Bezier-4 & B3
-* __B4__ &nbsp;- four Bezier-3
-* __B5__ &nbsp;- five Bezier-3
-* __HB+__ - half of foil: two B4 & B3 - camber
-* __HA__ &nbsp;- two B3 & Height of Arc( camber )
+* __B4__ &nbsp; - four Bezier-3
+* __B5__ &nbsp; - five Bezier-3
+* __HB+__ - __Half__ of foil: two B4 &nbsp; & &nbsp; __B3__ - camber
+* __HA__ &nbsp;- __Half__ of foil:two B3 &nbsp; & &nbsp; __Arc__( camber )
 
