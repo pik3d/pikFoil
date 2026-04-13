@@ -18,4 +18,10 @@ The editor has seven ways to construct airfoils :
 After selecting the airfoil construction method, you
 can drag the control points to achieve the desired airfoil shape.
 
+Editor supports "Foil Buffer" to store intermediate steps or foil series.
 
+How to use window graphics and control editor is described in &lt;Help-F1>.
+
+Result saves in text file with __.foil__ extension. It contains all Beziers as list of "Bezier Control points": P1...P5
+and comments how to use them. In addition it contains "discrete" airfoil points(x,y) array.
+Discrete points are selected to ensure a deviation less than 0.0002 .
