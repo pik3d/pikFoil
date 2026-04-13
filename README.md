@@ -33,7 +33,7 @@ Go to the &nbsp;__"JavaFoil"__ ( it must be run __in parallel with pikFoil__ ).<
 In the tab: __"Geometry"__ press the button __"Paste( Text )"__.<br>
 In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze it"__.<br>
 
-&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; __Curvature issue__
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
 In general case two Bezier curves are joined with a continuous first derivative, but have a gap 
 in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To see curvature gaps, press the button __"Curvature"__ and use __ZOOM__. 
@@ -45,6 +45,6 @@ Use checkbox "Smooth" ON/OFF this service. When the service is activated, __pikF
 which slightly change __the Bezier curves :__<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;__B(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
 where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;__K0, K1__ - vectors of smooth coefficients ,<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f0, f1 - scalar functions :<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f0(t) = .5 * t^2 * (1-t)^3, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = 0, &nbsp; f0"(0)=1 ;<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; f1(t) = .5 * t^3 * (1-t)^2, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = 0, &nbsp; f1"(1)=1 ;<br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;f0, f1 - scalar functions :<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;f0(t) = .5 * t^2 * (1-t)^3, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = 0, &nbsp; f0"(0)=1 ;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;f1(t) = .5 * t^3 * (1-t)^2, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = 0, &nbsp; f1"(1)=1 ;<br> 
