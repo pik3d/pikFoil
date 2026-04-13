@@ -28,9 +28,9 @@ Discrete points are selected to ensure a deviation less than 0.0002 .
 
 It is convenient to evaluate airFoil characteristics with <a href='http://www.mh-aerotools.de/airfoils/javafoil.htm'>"JavaFoil of Martin Hepperle"</a>.
 
-To copy airfoil discrete points to the system ClipBoard, press the button "ClipBoard".<br>
-Go to the "JavaFoil" (it must be run in parallel with pikFoil).<br>
-In the tab: "Geometry" press the button "Paste( Text)".<br>
-In the tab: "Polar" &nbsp; press the button "Analyze it".<br>
+To copy airfoil discrete points to the system ClipBoard, press the button __ClipBoard__.<br>
+Go to the __"JavaFoil"__ (it must be run __in parallel with pikFoil__ ).<br>
+In the tab: __"Geometry"__ press the button __Paste( Text)__.<br>
+In the tab: __"Polar"__ &nbsp; press the button __Analyze it__.<br>
 
 
