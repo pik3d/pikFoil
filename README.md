@@ -36,7 +36,8 @@ In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
 In general case two Bezier curves are joined with a continuous first derivative, but have a gap 
-in the curvature( __k__ ) - the reciprocal of the curvature radius __R__ :<br>
+in the curvature( __k__ ) - the reciprocal of the curvature radius __R__ :
+
 ![curvature](/assets/images/k.png)
 
 __pikFoil__ has additional service to ensure continuous curvature - __"Smooth"__.
