@@ -41,3 +41,10 @@ in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To se
 ![curvature](/assets/images/k.png)
 
 __pikFoil__ has additional service to ensure continuous curvature - __"Smooth"__.
+Use checkbox "Smooth" ON/OFF this service. When the service is activated, __pikFoil__ find the gap and try to remove it by adding special functions,
+which slightly change the next after gap Bezier:<br><br>
+&nbsp; &nbsp; __*B(t)__ = __B(t)__+ f0(t)*__K0__+ f1(t)*__K1__ , &nbsp; where:<br><br>
+
+&nbsp; &nbsp; &nbsp; &nbsp; f0,f1 - scalar functions :
+&nbsp; &nbsp; &nbsp; &nbsp; f0(t) = t^2 * (1-t)^3 / 2 ,  f0(0)=f0(1) = f0'(0)=f0'(1) = 0,  f0"(0)=1 ;
+&nbsp; &nbsp; &nbsp; &nbsp; f1(t) = t^3 * (1-t)^2 / 2 ,  f1(0)=f1(1) = f1'(0)=f1'(1) = 0,  f1"(1)=1 ; 
