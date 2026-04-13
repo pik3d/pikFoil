@@ -15,7 +15,7 @@ The editor has seven ways to construct airfoils :
 * __HB+__ - __Half__ of foil : &nbsp;two Bezier-4 &nbsp; & &nbsp; Bezier-3 &nbsp;camber
 * __HA__ &nbsp; - __Half__ of foil : &nbsp;two Bezier-3 &nbsp; & &nbsp; __Arc__ &nbsp;camber line
 
-After selecting the airfoil construction method,<br>
-you can drag the control points to achieve the desired airfoil shape.
+After selecting the airfoil construction method, you
+can drag the control points to achieve the desired airfoil shape.
 
 
