@@ -33,10 +33,10 @@ Go to the &nbsp;__"JavaFoil"__ ( it must be run __in parallel with pikFoil__ ).<
 In the tab: __"Geometry"__ press the button __"Paste( Text )"__.<br>
 In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze it"__.<br>
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
 In general case two Bezier curves are joined with a continuous first derivative, but have a gap 
-in the curvature( __k__ ) - the reciprocal of the curvature radius __R__ :
+in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ :
 
 ![curvature](/assets/images/k.png)
 
