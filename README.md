@@ -55,7 +55,7 @@ Program compiled with __JAVA-21__ (can be run under later JAVA versions) and pac
 It is enogh __jre package__, which can be freely download(~60 MB): <a href='https://www.azul.com/downloads/?os=windows&architecture=x86-64-bit&package=jre#zulu'>Azul Downloads</a><br>
 
 Standard run: &nbsp;> java &nbsp; -jar &nbsp; __pikFoil.jar__ &nbsp; [saved_Foil]<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or &nbsp; > __pikFoil[.bat]__ &nbsp; [saved_Foil] &nbsp; &nbsp; # __recommended__<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or &nbsp; > __pikFoil[.bat]__ &nbsp; [saved_Foil] &nbsp; &nbsp; &nbsp; # __recommended__<br>
 shortcut &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp;can be placed on the desktop, use __pikFoil.ico__<br>
 
 
