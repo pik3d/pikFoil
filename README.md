@@ -44,8 +44,8 @@ which slightly change __the Bezier curves :__<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;__Bs(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
 where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; __K0, K1__ - vectors of __smooth coefficients__ (extends the Bezier Control Points),<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0, f1 &nbsp;- scalar functions :<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0(t) = .5 * t^2 * (1-t)^3, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = 0, &nbsp; f0"(0)=1 ;<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f1(t) = .5 * t^3 * (1-t)^2, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = 0, &nbsp; f1"(1)=1 .<br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0(t) = .5 * t^2 * (1-t)^3, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = 0, &nbsp; f0"(0)=1, f1"(1)=0 ;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f1(t) = .5 * t^3 * (1-t)^2, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = 0, &nbsp; f0"(0)=0, f1"(1)=1 .<br> 
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __install & run__
 
@@ -54,7 +54,7 @@ It is enough __jre package__ to run pikFoil. &nbsp;__JRE__ is free to download(~
 
 Standard run: &nbsp;> __java &nbsp; -jar &nbsp; pikFoil.jar__ &nbsp; [ saved_Foil ]<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or &nbsp; > __pikFoil[.bat]__ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[ saved_Foil ]<br>
-shortcut &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp; &nbsp; &nbsp;can be placed on the __desktop__ ( use __pikFoil.ico__ ) &nbsp; __# recommended__<br>
+__shortcut__ &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp; &nbsp; &nbsp;can be placed on the __desktop__ ( use __pikFoil.ico__ ) &nbsp; __# recommended__<br>
 
 __pikFoil__ works fine under __Linux__ (tested in Mint 21).
 
