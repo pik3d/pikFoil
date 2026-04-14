@@ -1,6 +1,6 @@
 ##  Air Foil design based on Bezier curves - graph. editor
 ![pikFoil](/assets/images/pikFoil80.png)
-<br>The editor uses Bezier curves of 3 and 4 degree. The vector form looks like:
+<br>__The editor uses Bezier curves of 3 and 4 degree__. The vector form looks like:
 ![Bezier3,4](/assets/images/03.png)
 <br>A vector is a point with two coordinates: x, y .<br>
 Control point __P4 (green) of B4__ — controls the middle part of the curve.
