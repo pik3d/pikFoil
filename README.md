@@ -44,8 +44,8 @@ which slightly change __the Bezier curves :__<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;__Bs(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
 where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; __K0, K1__ - vectors of __smooth coefficients__ (extends the Bezier Control Points),<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0, f1 &nbsp;- scalar functions :<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0(t) = .5 * t^2 * (1-t)^3, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = 0, &nbsp; f0"(0)=1, f0"(1)=0 ;<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f1(t) = .5 * t^3 * (1-t)^2, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = 0, &nbsp; f1"(0)=0, f1"(1)=1 .<br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0(t) = __.5 * t^2 * (1-t)^3__, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = __0__, &nbsp; f0"(0)=__1__, f0"(1)=__0__ ;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f1(t) = __.5 * t^3 * (1-t)^2__, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = __0__, &nbsp; f1"(0)=__0__, f1"(1)=__1__ .<br> 
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __install & run__
 
