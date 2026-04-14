@@ -2,7 +2,7 @@
 ![pikFoil](/assets/images/pikFoil80.png)
 <br>__The editor uses Bezier curves of 3 and 4 degree__. The vector form looks like:
 ![Bezier3,4](/assets/images/03.png)
-<br>A vector is a point with two coordinates: x, y .<br>
+<br>A vector is a point that has two or more coordinates.<br>
 Control point __P4 (green) of B4__ — controls the middle part of the curve.
 
 The editor has seven ways to construct airfoils :
