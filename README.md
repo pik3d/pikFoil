@@ -39,7 +39,7 @@ in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To se
 ![curvature](/assets/images/k.png)
 
 __pikFoil__ has additional service to ensure continuous curvature -__"Smooth"__.
-Unfortunately, in the current version of the service, the __curvature is not differentiable( only continuous ) at the connection points__.
+Unfortunately, in the current version of the service, the __curvature is not differentiable( only continuous ) at the connection points__.<br>
 Use checkbox "Smooth" ON/OFF this service. When the service is activated, __pikFoil__ finds the gap and try to remove it by adding special functions,
 which slightly change __the Bezier curves :__<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;__Bs(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
