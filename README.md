@@ -22,7 +22,7 @@ How to control editor and use window graphics is described in __&lt;Help-F1>__.
 
 Result saves in text file with __.foil__ extension. It contains all Bezier curves( Control Points: P1...P5 )
 with comments how to use them. In addition it contains array of the __"discrete" airfoil points( x,y )__.
-Discrete points are selected in accordane with a curvature to ensure a deviation less than 0.0002 .
+Points are selected in accordance with a curvature to ensure a deviation less than 0.0002 .
 
 It is convenient to evaluate airfoil characteristics with <a href='http://www.mh-aerotools.de/airfoils/javafoil.htm'>"JavaFoil of Martin Hepperle"</a>.
 
