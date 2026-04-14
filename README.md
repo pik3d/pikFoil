@@ -33,12 +33,12 @@ In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze 
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
-In general case two Bezier curves are joined with a continuous first derivative, but have a gap 
+In general case two Bezier curves are joined with a continuous first derivatives, but have a gap 
 in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To see curvature gaps, press the button __"Curvature"__ and use __ZOOM__. 
 
 ![curvature](/assets/images/k.png)
 
-__pikFoil__ has additional service to ensure continuous curvature -__"Smooth"__.
+__pikFoil__ has additional service to ensure continuous curvature -__"Smooth"__.<br>
 Unfortunately, in the current version of the service, the __curvature is not differentiable( only continuous ) at the connection points__.<br>
 Use checkbox "Smooth" ON/OFF this service. When the service is activated, __pikFoil__ finds the gap and try to remove it by adding special functions,
 which slightly change __the Bezier curves :__<br>
