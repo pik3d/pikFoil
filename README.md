@@ -26,7 +26,7 @@ Points are selected in accordance with a curvature to ensure a deviation less th
 
 It is convenient to evaluate airfoil characteristics with <a href='http://www.mh-aerotools.de/airfoils/javafoil.htm'>"JavaFoil of Martin Hepperle"</a>.
 
-To copy airfoil discrete points to the system ClipBoard, press the button __"ClipBoard"__.<br>
+To copy airfoil points to the system ClipBoard, press the button __"ClipBoard"__.<br>
 Go to the &nbsp;__"JavaFoil"__ ( it must be run __in parallel with pikFoil__ ).<br>
 In the tab: __"Geometry"__ press the button __"Paste( Text )"__.<br>
 In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze it"__.<br>
