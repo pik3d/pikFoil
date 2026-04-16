@@ -41,14 +41,12 @@ in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To se
 __pikFoil__ has two services to ensure continuous curvature. Both services slightly change the Bezier curves.<br>
 Unfortunately, in the current version, the __curvature is not differentiable (only continuous) at the connection points__.
 
-Button __Smooth Rot.__ - try to remove curvature gaps by Rotating of the "Yellow lines" with Control Points around the central Point.
-The service attempts to eliminate curvature gaps by rotating "yellow lines" with control points around a central point.
+Button __"Smooth Rot."__ - the service attempts to eliminate curvature gaps by rotating __"yellow lines"__ with Control Points around a central Point.
 In some cases this gives good results. The downside of this service is that it is irreversible.
-Before starting the service, it is recommended to save the airfoil in the Foil Buffer (press: "ClipBoard").
-In case of unsuccessful result, the previous state can be returned by press key: E ( see commands of Foil Buffer ).
+Before starting the service, it is recommended to save the airfoil in the Foil Buffer (press button __ClipBoard__).
+In case of unsuccessful result, the previous state can be returned by press key: __E -"End of Buffer"__( see commands of Foil Buffer ).
 
-Use __checkbox "Smooth" ON/OFF__ the second service. When the service is activated, __pikFoil__ finds the gap and try to remove it by adding special functions,
-which slightly change __the Bezier curves :__<br>
+checkbox __"Smooth"__ ON/OFF__. When the service is activated, __pikFoil__ finds a gap and tries to remove it by adding special functions.
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;__Bs(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
 where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; __K0, K1__ - vectors of __smooth coefficients__ (extends the Bezier Control Points),<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0, f1 &nbsp;- scalar functions :<br>
