@@ -1,0 +1,10 @@
+
+2026-04-16  v. 1.1
+  - "Construct.way: B2 = 2 * Bezier-3" is removed;
+  - Curvature gaps removal service: "Smooth Rotation" is added; 
+  - Curvature window is not closed wnen "Construct.way" is changed;
+  - several small fixes in 2D-graphics.
+
+2026-04-14  v. 1.0
+  - initial version. 
+    
