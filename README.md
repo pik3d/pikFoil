@@ -32,8 +32,8 @@ In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze 
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
-In general case two Bezier curves are joined with a continuous first derivatives, but have a gap 
-in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To see curvature gaps, press the button __"Curvature"__ and use __ZOOM__. 
+In general case two Bezier curves are joined with a continuous first derivatives, but have a gap
+in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To see curvature gaps, press the button __"Curvature"__ and use __ZOOM__.
 
 ![curvature](/assets/images/k.png)
 
@@ -50,7 +50,7 @@ __2.__ Checkbox __"Smooth Add."__ When the service is __ON__ - activated/ select
 where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; __K0, K1__ - vectors of __smooth coefficients__ (extends the Bezier Control Points),<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0, f1 &nbsp;- scalar functions :<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f0(t) = __.5 * t^2 * (1-t)^3__, &nbsp; f0(0)=f0(1) = f0'(0)=f0'(1) = __0__, &nbsp; f0"(0)=__1__, &nbsp;f0"(1)=__0__ ;<br>
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f1(t) = __.5 * t^3 * (1-t)^2__, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = __0__, &nbsp; f1"(0)=__0__, &nbsp;f1"(1)=__1__ .<br> 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; f1(t) = __.5 * t^3 * (1-t)^2__, &nbsp; f1(0)=f1(1) = f1'(0)=f1'(1) = __0__, &nbsp; f1"(0)=__0__, &nbsp;f1"(1)=__1__ .<br>
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __install & run__
 
