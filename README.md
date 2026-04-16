@@ -1,4 +1,4 @@
-##  Air Foil design based on Bezier curves - graph. editor
+##  Air Foil design based on Bezier curves - graph. editor v.1.1
 ![pikFoil](/assets/images/pikFoil80.png)
 <br>__The editor uses Bezier curves of 3 and 4 degree__. The vector form looks like:
 ![Bezier3,4](/assets/images/03.png)
@@ -38,10 +38,16 @@ in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To se
 
 ![curvature](/assets/images/k.png)
 
-__pikFoil__ has additional service to ensure continuous curvature -__"Smooth"__.<br>
+__pikFoil__ has two services to ensure continuous curvature. Both services slightly change the Bezier curves.<br>
 Unfortunately, in the current version, the __curvature is not differentiable (only continuous) at the connection points__.
 
-Use __checkbox "Smooth" ON/OFF__ this service. When the service is activated, __pikFoil__ finds the gap and try to remove it by adding special functions,
+Button __Smooth Rot.__ - try to remove curvature gaps by Rotating of the "Yellow lines" with Control Points around the central Point.
+The service attempts to eliminate curvature gaps by rotating "yellow lines" with control points around a central point.
+In some cases this gives good results. The downside of this service is that it is irreversible.
+Before starting the service, it is recommended to save the airfoil in the Foil Buffer (press: "ClipBoard").
+In case of unsuccessful result, the previous state can be returned by press key: E ( see commands of Foil Buffer ).
+
+Use __checkbox "Smooth" ON/OFF__ the second service. When the service is activated, __pikFoil__ finds the gap and try to remove it by adding special functions,
 which slightly change __the Bezier curves :__<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;__Bs(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
 where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; __K0, K1__ - vectors of __smooth coefficients__ (extends the Bezier Control Points),<br>
