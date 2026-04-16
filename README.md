@@ -44,7 +44,7 @@ Unfortunately, in the current version, the __curvature is not differentiable (on
 __1.__ Button __"Smooth Rot."__ - attempts to eliminate curvature gaps by rotating __"yellow lines"__ with Control Points around a central Point.
 In some cases this gives good results. The downside of this service is that it is irreversible.
 Before starting the service, it is recommended to save the airfoil in the __Foil Buffer__ (press button __ClipBoard__).
-In case of unsuccessful result, the previous state can be returned by press key: __E -"End of Buffer"__( see commands of Foil Buffer ).
+In case of unsuccessful result, the previous state can be returned by press key: __E -"End of Buffer"__( see commands of the Foil Buffer ).
 
 __2.__ Checkbox __"Smooth Add."__ When the service is __ON__ - activated/ selected , __pikFoil__ finds a gap and tries to remove it by adding special functions.<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; __Bs(t)__ = __B(t)__+ f0(t)\*__K0__+ f1(t)\*__K1__ ,<br>
