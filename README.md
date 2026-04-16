@@ -41,9 +41,9 @@ in the __curvature( k__ ) - the reciprocal of the __curvature radius R__ . To se
 __pikFoil__ has two services to ensure continuous curvature. Both services slightly change the Bezier curves.<br>
 Unfortunately, in the current version, the __curvature is not differentiable (only continuous) at the connection points__.
 
-Button __"Smooth Rot."__ - the service attempts to eliminate curvature gaps by rotating __"yellow lines"__ with Control Points around a central Point.
+Button __"Smooth Rot."__ - attempts to eliminate curvature gaps by rotating __"yellow lines"__ with Control Points around a central Point.
 In some cases this gives good results. The downside of this service is that it is irreversible.
-Before starting the service, it is recommended to save the airfoil in the Foil Buffer (press button __ClipBoard__).
+Before starting the service, it is recommended to save the airfoil in the __Foil Buffer__ (press button __ClipBoard__).
 In case of unsuccessful result, the previous state can be returned by press key: __E -"End of Buffer"__( see commands of Foil Buffer ).
 
 checkbox __"Smooth Add." When the service is activated, __pikFoil__ finds a gap and tries to remove it by adding special functions.<br>
