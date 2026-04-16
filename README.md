@@ -5,9 +5,8 @@
 <br>A vector is a point that has two or more coordinates.<br>
 Control point __P4 (green) of B4__ — controls the middle part of the curve.
 
-The editor has seven ways to construct airfoils :
+The editor has six ways to construct airfoils :
 
-* __B2__ &nbsp; - two Bezier-3
 * __B2+__ - two Bezier-4
 * __B3+__ - two Bezier-4 &nbsp;& &nbsp;Bezier-3
 * __B4__ &nbsp; - four Bezier-3
