@@ -64,6 +64,7 @@ __shortcut__ &nbsp;for &nbsp; &nbsp; &nbsp; __pikFoil. bat__ &nbsp; &nbsp; &nbsp
 __pikFoil__ works fine under __Linux__ (tested in Mint 21).
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Template viewer__
+
 You can copy airFoil data as array of x,y  to the ClipBoard or to the File and load it as Template( in case clipboard, file name = ClipBoard ).
 Data can be taken from any source: NACA or other airFoil Libraries.
 
