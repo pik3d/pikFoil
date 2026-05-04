@@ -1,4 +1,4 @@
-##  Air Foil design based on Bezier curves - graph. editor &nbsp; v.1.3
+##  Air Foil design based on Bezier curves - graph. editor &nbsp; v.1.4
 ![pikFoil](/assets/images/pikFoil80.png)
 <br>__The editor uses Bezier curves of 3 and 4 degree__. The vector form looks like:
 ![Bezier3,4](/assets/images/03.png)
