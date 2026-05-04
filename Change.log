@@ -1,4 +1,8 @@
 
+2026-05-05  v. 1.4
+  - Load Template Foil from ClipBoard or File( without '### Foil[...]', only array of x,y );
+  - several small fixes.
+
 2026-05-03  v. 1.3
   - 2D-graphics improovements:
     - Add.graphics can be moved and scaled;
