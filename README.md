@@ -19,7 +19,7 @@ After selecting the airfoil construction method, you can drag the control points
 Editor supports __"Foil Buffer"__ to store intermediate steps or foil series.
 How to control editor and use window graphics is described in __&lt;Help-F1>__.
 
-Result saves in text file with __.foil__ extension. It contains all Bezier curves( Control Points: P1...P5 )
+Result saves in text file with __.foil__ extension. It contains all Bezier curves( Control Points: P0...P4 )
 with comments how to use them. In addition it contains array of the __"discrete" airfoil points( x,y )__.
 Points are selected in accordance with a curvature to ensure a deviation less than 0.0002 .
 
@@ -54,7 +54,7 @@ where: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; __K0, K1__ - vectors of _
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __install & run__
 
-Program is compiled with __JAVA-21__ (can be run under later JAVA versions) and is packed into the __pikFoil.jar__ file.<br>
+Program is compiled with __JAVA-21__ (can be run under later JAVA versions) and is packed into the __pikFoil.jar__ .<br>
 It is enough __JRE package of JAVA__ to run pikFoil. &nbsp;__JRE__ is free to download(~60 MB): <a href='https://www.azul.com/downloads/?os=windows&architecture=x86-64-bit&package=jre#zulu'> Azul Downloads</a><br>
 
 Standard run: &nbsp;> __java &nbsp; -jar &nbsp; pikFoil.jar__ &nbsp; [ saved_Foil ]<br>
