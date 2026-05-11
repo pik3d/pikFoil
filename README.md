@@ -29,6 +29,7 @@ To copy airfoil points to the system ClipBoard, press the button __"ClipBoard"__
 Go to the &nbsp;__"JavaFoil"__ ( it must be run __in parallel with pikFoil__ ).<br>
 In the tab: __"Geometry"__ press the button __"Paste( Text )"__.<br>
 In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze it"__.<br>
+See the last screenshot in the examples below.
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
@@ -72,3 +73,5 @@ Examples:<br>
 ![half_B5](/assets/images/half_B5.png)
 ![curvgap](/assets/images/curvgap.png)
 ![smooth](/assets/images/smooth.png)
+![pikFoil_javaFoil](/assets/images/pikMH.png)
+
