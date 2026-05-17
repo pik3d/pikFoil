@@ -1,4 +1,7 @@
 
+2026-05-17  v. 1.5
+  - fix color bug in display Half Foil( HA,HB ) with Template.
+
 2026-05-05  v. 1.4
   - Load Template Foil from ClipBoard or File( without '### Foil[...]', only array of x,y );
   - several small fixes.
