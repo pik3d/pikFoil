@@ -1,4 +1,7 @@
 
+2026-05-20  v. 1.5.1
+  - fixed cursor lines bug in Curvature window.
+
 2026-05-17  v. 1.5
   - fixed color bug in display Half Foil( HA,HB ) with Template.
 
