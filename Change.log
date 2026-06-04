@@ -1,4 +1,9 @@
 
+2026-06-04  v. 1.6
+  - Service: "Click Sequence after ClipBoard" is added ;
+  - default location of the "Curvature" window: now it is below the main window ;
+  - several small fixes in input/output library .
+
 2026-05-24  v. 1.5.1
   - Link to the github( distrib & doc ) is added to the <F1-help>.
 
