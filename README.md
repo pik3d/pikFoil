@@ -31,6 +31,28 @@ In the tab: __"Geometry"__ press the button __"Paste( Text )"__.<br>
 In the tab: __"Polar"__ &nbsp; &nbsp; &nbsp; &nbsp; press the button __"Analyze it"__.<br>
 See the last screenshot in the examples below.
 
+&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Click Sequence after ClipBoard__
+
+To evaluate the profile characteristics you must click the mouse four times in the __Javafoil__ application.
+__"ClicBoard Click Sequence"__ service allows you to automate this process. 
+You simply specify a sequence of screen coordinates for a programmatic mouse click after the button __"ClipBoard"__.<br>
+
+After selecting the menu item: __ClicBoard Click Sequence__ or by using the hotkey: '__C__', you add
+desired screen locations with the mouse. Service window is a text. You can edit or even clear it.<br> 
+
+Example for __JavaFoil__( must run in parallel with __pikFoil__ ):<br>
+ - On the main window of __pikFoil__ press key '__C__' or click Right mouse/ menu/ bottom point ;
+ - pres button: [ ADD ] and click __JavaFoil__ Tab: __Geometry__ ;<br>
+ - pres button: [ ADD ] and click button: __Paste( Text )__ ;<br>
+ - pres button: [ ADD ] and click __JavaFoil__ Tab: __Polar__ ;<br>
+ - pres button: [ ADD ] and click button: __Analyze it__ ;<br>
+
+The sequence of 4 clicks is ready. To close window press <Esc> or standard [x]-window top right.
+
+Now, every time you press the __pikFoil__ button: __ClipBoard__, the specified sequence of clicks will be executed.
+That is no need in 4 clicks. After button __ClipBoard__, you will immediately see changes in its aerodinamics.
+You can view or change the __"Click Sequence"__ at any time by pressing '__C__' or menu.   
+
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
 In general case two Bezier curves are joined with a continuous first derivatives, but have a gap
