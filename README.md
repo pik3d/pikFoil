@@ -50,7 +50,7 @@ Example for __JavaFoil__( must run in parallel with __pikFoil__ ):<br>
 The sequence of 4 clicks is ready. To close window press key: __Esc__ or standard __[x]__-window top right.
 
 Now, each time you press the __pikFoil ClipBoard__, the specified __Click Sequence__ will be performed.
-There's no longer a need in 4 clicks in __JavaFoil__. You will immediately see changes in the airFoil aerodynamics.
+There's no longer need to perform 4 clicks in __JavaFoil__. You will immediately see changes in airFoil's aerodynamics.
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
