@@ -38,9 +38,9 @@ __"ClipBoard Click Sequence"__ service allows you to automate this process.<br>
 You simply specify a __sequence of screen coordinates__ for a programmatic mouse click after __"ClipBoard"__.<br>
 
 After selecting the menu item: __ClipBoard Click Sequence__ or by using the hotkey: '__C__', you add
-desired screen locations with the mouse. Service window is a text. You can view, edit or even clear it at any time.<br> 
+desired screen locations with the mouse. Service window is a text. You can view, edit and even clear it at any time.<br> 
 
-Example for __JavaFoil__( must run in parallel with __pikFoil__ ):<br>
+Example for __JavaFoil__ ( must run in parallel with __pikFoil__ ):<br>
  - On the main window of __pikFoil__ press key '__C__' or click Right mouse: __menu/ bottom point__ ;
  - pres button: __ADD__ , move mouse and click __JavaFoil__ Tab: __"Geometry"__ ;<br>
  - pres button: __ADD__ , move mouse and click button: __"Paste( Text )"__ ;<br>
@@ -49,7 +49,7 @@ Example for __JavaFoil__( must run in parallel with __pikFoil__ ):<br>
 
 The sequence of 4 clicks is ready. To close window press key: __Esc__ or standard __[x]__-window top right.
 
-Now, each time you press the __pikFoil ClipBoard__, the specified __Click Sequence__ will be performed.
+Now, each time you press the __pikFoil ClipBoard__, the specified __Click Sequence__ will be performed.<br>
 There's no longer need to perform 4 clicks in __JavaFoil__. You will immediately see changes in airFoil's aerodynamics.
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
