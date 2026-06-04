@@ -49,8 +49,8 @@ Example for __JavaFoil__( must run in parallel with __pikFoil__ ):<br>
 
 The sequence of 4 clicks is ready. To close window press key: __Esc__ or standard __[x]__-window top right.
 
-Now, every time you press the __pikFoil ClipBoard__, the specified sequence of clicks will be executed after data transfer.
-That is no need in 4 clicks in the __JavaFoil__. After button __ClipBoard__, you will immediately see changes in its aerodinamics.
+Now, each time you press the __pikFoil ClipBoard__, the specified click sequence will be performed.
+There's no longer a need in 4 clicks in __JavaFoil__. You will immediately see changes in the airFoil aerodynamics.
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
