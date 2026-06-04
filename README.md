@@ -33,25 +33,24 @@ See the last screenshot in the examples below.
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Click Sequence after ClipBoard__
 
-To evaluate the profile characteristics you must click the mouse four times in the __Javafoil__ application.
-__"ClicBoard Click Sequence"__ service allows you to automate this process. 
-You simply specify a sequence of screen coordinates for a programmatic mouse click after the button __"ClipBoard"__.<br>
+To evaluate the profile characteristics you must click the mouse four times in the __Javafoil__ application.<br>
+__"ClipBoard Click Sequence"__ service allows you to automate this process.<br> 
+You simply specify a __sequence of screen coordinates__ for a programmatic mouse click after __"ClipBoard"__.<br>
 
-After selecting the menu item: __ClicBoard Click Sequence__ or by using the hotkey: '__C__', you add
-desired screen locations with the mouse. Service window is a text. You can edit or even clear it.<br> 
+After selecting the menu item: __ClipBoard Click Sequence__ or by using the hotkey: '__C__', you add
+desired screen locations with the mouse. Service window is a text. You can view, edit or even clear it at any time.<br> 
 
 Example for __JavaFoil__( must run in parallel with __pikFoil__ ):<br>
- - On the main window of __pikFoil__ press key '__C__' or click Right mouse/ menu/ bottom point ;
- - pres button: [ ADD ] and click __JavaFoil__ Tab: __Geometry__ ;<br>
- - pres button: [ ADD ] and click button: __Paste( Text )__ ;<br>
- - pres button: [ ADD ] and click __JavaFoil__ Tab: __Polar__ ;<br>
- - pres button: [ ADD ] and click button: __Analyze it__ ;<br>
+ - On the main window of __pikFoil__ press key '__C__' or click Right mouse: __menu/ bottom point__ ;
+ - pres button: __ADD__ and click __JavaFoil__ Tab: __Geometry__ ;<br>
+ - pres button: __ADD__ and click button: __Paste( Text )__ ;<br>
+ - pres button: __ADD__ and click __JavaFoil__ Tab: __Polar__ ;<br>
+ - pres button: __ADD__ and click button: __Analyze it__ .<br>
 
-The sequence of 4 clicks is ready. To close window press <Esc> or standard [x]-window top right.
+The sequence of 4 clicks is ready. To close window press key: __Esc__ or standard __[x]__-window top right.
 
-Now, every time you press the __pikFoil__ button: __ClipBoard__, the specified sequence of clicks will be executed.
-That is no need in 4 clicks. After button __ClipBoard__, you will immediately see changes in its aerodinamics.
-You can view or change the __"Click Sequence"__ at any time by pressing '__C__' or menu.   
+Now, every time you press the __pikFoil ClipBoard__, the specified sequence of clicks will be executed after data transfer.
+That is no need in 4 clicks in the __JavaFoil__. After button __ClipBoard__, you will immediately see changes in its aerodinamics.
 
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; __Curvature issue__
 
