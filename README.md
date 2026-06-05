@@ -40,9 +40,9 @@ You simply specify a __sequence of screen coordinates__ for a programmatic mouse
 After selecting the menu item: __ClipBoard Click Sequence__ or by using the hotkey: '__C__', you add
 desired screen locations with the mouse. Service window is a text. You can view, edit and even clear it at any time.<br> 
 
-Example for __JavaFoil__ ( must run in parallel with __pikFoil__ ,the added lines look like int the example ):<br>
+Example for __JavaFoil__ ( must run in parallel with __pikFoil__ , the added lines look like example ):<br>
  - On the main window of __pikFoil__ press key '__C__' or click Right mouse: __menu/ bottom point__ ;
- - pres button: __ADD__ , move mouse and click __JavaFoil__ Tab: __"Geometry"__ --> 1. ... &nbsp; !will be added to the service<br>
+ - pres button: __ADD__ , move mouse and click __JavaFoil__ Tab: __"Geometry"__ &nbsp; --> 1. 1176, 41 &nbsp; ! will be added<br>
  - pres button: __ADD__ , move mouse and click button: __"Paste( Text )"__ ;<br>
  - pres button: __ADD__ , move mouse and click __JavaFoil__ Tab: __"Polar"__ ;<br>
  - pres button: __ADD__ , move mouse and click button: __"Analyze it"__ .<br>
