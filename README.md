@@ -42,7 +42,7 @@ desired screen locations with the mouse. Service window is a text. You can view,
 
 Example for __JavaFoil__ ( must run in parallel with __pikFoil__ ):<br>
  - On the main window of __pikFoil__ press key '__C__' or click Right mouse: __menu/ bottom point__ ;
- - pres button: __ADD__ , move mouse and click __JavaFoil__ Tab: __"Geometry"__ ;<br>
+ - pres button: __ADD__ , move mouse and click __JavaFoil__ Tab: __"Geometry"__ --> 1. 1.  1176, 40 &nbsp; !line will be added to the service<br>
  - pres button: __ADD__ , move mouse and click button: __"Paste( Text )"__ ;<br>
  - pres button: __ADD__ , move mouse and click __JavaFoil__ Tab: __"Polar"__ ;<br>
  - pres button: __ADD__ , move mouse and click button: __"Analyze it"__ .<br>
