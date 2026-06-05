@@ -1,4 +1,9 @@
 
+2026-06-05  v. 1.6.1
+  - improved Service: "Click Sequence after ClipBoard" (message while click scan) ;
+  - improved <F1-Help> in pikFoil ;
+  - several small fixes in input/output library .
+
 2026-06-04  v. 1.6
   - Service: "Click Sequence after ClipBoard" is added ;
   - default location of the "Curvature" window: now it is below the main window ;
