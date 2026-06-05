@@ -1,7 +1,7 @@
 
 2026-06-05  v. 1.6.1
   - improved Service: "Click Sequence after ClipBoard" (message while click scan) ;
-  - improved <F1-Help> in pikFoil ;
+  - improved  README.md  and  <F1-Help> in pikFoil ;
   - several small fixes in input/output library .
 
 2026-06-04  v. 1.6
