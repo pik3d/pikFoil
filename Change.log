@@ -1,4 +1,7 @@
 
+2026-10-19  v. 1.7.1
+  - Fixed Display Loaded files on chart and Foil Buffer.
+
 2026-10-16  v. 1.7
   - Service: "Click Sequence after ClipBoard" moved from the Menu to Button;
   - Names of the Loaded/ Saved airFoil files are displayed on the chart;
